@@ -19,8 +19,8 @@ brew install fun
 
 Windows 和 Linux 用户安装请参考：
 
-1. https://github.com/aliyun/fun/blob/master/docs/usage/installation.md
-2. https://github.com/aliyun/fcli/releases
+1. <https://github.com/aliyun/fun/blob/master/docs/usage/installation.md>
+2. <https://github.com/aliyun/fcli/releases>
 
 安装好后，记得先执行 `fun config` 初始化一下配置。
 
