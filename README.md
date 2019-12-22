@@ -1,6 +1,6 @@
 # 移植 Python 量化交易 ta-lib 库到函数计算
 
-该模板是一个将 Python 量化交易 ta-lib 库移植到函数计算的示例工程。
+该模板是一个将 Python 量化交易 [ta-lib](https://github.com/mrjbq7/ta-lib) 库移植到函数计算的示例工程。
 
 ## 依赖工具
 
