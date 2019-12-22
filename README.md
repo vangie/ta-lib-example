@@ -97,6 +97,7 @@ RequestId: dc1495b2-13ec-4ecf-a2dc-a0026d82651a          Billed Duration: 350 ms
 ## 部署
 
 ```bash
+$ fun deploy
 using template: template.yml
 using region: cn-shanghai
 using accountId: ***********4733
