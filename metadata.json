@@ -1,0 +1,5 @@
+{
+    "name": "ta-lib-example",
+    "description": "install python ta-lib in fc.",
+    "copyOnlyPaths": [ ".fun" ]
+}

@@ -1,0 +1,10 @@
+
+RUNTIME python3
+COPY ta-lib-0.4.0-src.tar.gz /tmp
+RUN cd /tmp; tar -xzf ta-lib-0.4.0-src.tar.gz
+RUN cd /tmp/ta-lib/ ; \
+    ./configure --prefix=/code/.fun/root/usr ; \
+    make ; make install
+RUN TA_LIBRARY_PATH=/code/.fun/root/usr/lib \
+    TA_INCLUDE_PATH=/code/.fun/root/usr/include \
+    fun-install pip install TA-Lib
