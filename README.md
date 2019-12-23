@@ -1,6 +1,24 @@
-# 移植 Python 量化交易 ta-lib 库到函数计算
+# 移植 Python 量化交易 TA-Lib 库到函数计算
 
-该模板是一个将 Python 量化交易 [ta-lib](https://github.com/mrjbq7/ta-lib) 库移植到函数计算的示例工程。
+[TA-Lib](https://github.com/mrjbq7/ta-lib)，全称“Technical Analysis Library”, 即技术分析库，是 Python 金融量化的高级库，涵盖了150 多种股票、期货交易软件中常用的技术分析指标，如 MACD、RSI、KDJ、动量指标、布林带等等。
+
+TA-Lib 可分为 10 个子板块：
+
+- Overlap Studies(重叠指标)
+- Momentum Indicators(动量指标)
+- Volume Indicators(交易量指标)
+- Cycle Indicators(周期指标)
+- Price Transform(价格变换)
+- Volatility Indicators(波动率指标)
+- Pattern Recognition(模式识别)
+- Statistic Functions(统计函数)
+- Math Transform(数学变换)
+- Math Operators(数学运算)
+
+![](https://img.alicdn.com/tfs/TB1pFE6rAL0gK0jSZFAXXcA9pXa-553-183.png)
+![](https://data-analysis.cn-shanghai.log.aliyuncs.com/logstores/article-logs/track_ua.gif?APIVersion=0.6.0&title=%E7%A7%BB%E6%A4%8D%20Python%20%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%20TA-Lib%20%E5%BA%93%E5%88%B0%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97&author=%E5%80%9A%E8%B4%A4&src=article)
+
+本文介绍通过 Funcraft 的模板将 Python 量化交易库 TA-lib 移植到[函数计算](https://statistics.functioncompute.com/?title=%E7%A7%BB%E6%A4%8D%20Python%20%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%20TA-Lib%20%E5%BA%93%E5%88%B0%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97&author=%E5%80%9A%E8%B4%A4&url=http%3A%2F%2Ffc.console.aliyun.com%2F%3Ffctraceid%3DYXV0aG9yJTNEJUU1JTgwJTlBJUU4JUI0JUE0JTI2dGl0bGUlM0QlRTclQTclQkIlRTYlQTQlOEQlMjBQeXRob24lMjAlRTklODclOEYlRTUlOEMlOTYlRTQlQkElQTQlRTYlOTglOTMlMjBUQS1MaWIlMjAlRTUlQkElOTMlRTUlODglQjAlRTUlODclQkQlRTYlOTUlQjAlRTglQUUlQTElRTclQUUlOTc%3D)。
 
 ## 依赖工具
 
@@ -19,8 +37,7 @@ brew install fun
 
 Windows 和 Linux 用户安装请参考：
 
-1. <https://github.com/aliyun/fun/blob/master/docs/usage/installation.md>
-2. <https://github.com/aliyun/fcli/releases>
+<https://github.com/aliyun/fun/blob/master/docs/usage/installation.md>
 
 安装好后，记得先执行 `fun config` 初始化一下配置。
 
@@ -136,3 +153,8 @@ FC Invoke Result:
     "HT_TRENDMODE"
 ]
 ```
+
+## 参考阅读
+
+1. [函数计算](https://statistics.functioncompute.com/?title=%E7%A7%BB%E6%A4%8D%20Python%20%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%20TA-Lib%20%E5%BA%93%E5%88%B0%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97&author=%E5%80%9A%E8%B4%A4&src=article&url=https%3A%2F%2Fwww.aliyun.com%2Fproduct%2Ffc)
+2. [【手把手教你】股市技术分析利器之TA-Lib（一）](https://zhuanlan.zhihu.com/p/57389880)
