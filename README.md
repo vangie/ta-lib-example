@@ -1,6 +1,6 @@
 # 移植 Python 量化交易 TA-Lib 库到函数计算
 
-[TA-Lib](https://github.com/mrjbq7/ta-lib)，全称“Technical Analysis Library”, 即技术分析库，是 Python 金融量化的高级库，涵盖了150 多种股票、期货交易软件中常用的技术分析指标，如 MACD、RSI、KDJ、动量指标、布林带等等。
+[TA-Lib](https://github.com/mrjbq7/ta-lib)，全称“Technical Analysis Library”, 即技术分析库，是 Python 金融量化的高级库，涵盖了 150 多种股票、期货交易软件中常用的技术分析指标，如 MACD、RSI、KDJ、动量指标、布林带等等。
 
 TA-Lib 可分为 10 个子板块：
 
